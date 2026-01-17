@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
   <title>Think Easy Academy | Lecture Sheet Upload</title>
-  <meta name="description" content="Help us build free course resources by uploading your university lecture sheets." />
+  <meta
+    name="description"
+    content="Help us build free course resources by uploading your university lecture sheets."
+  />
 
-  <!-- logo.png root এ থাকবে -->
+  <!-- Favicon (logo at project root) -->
   <link rel="icon" href="logo.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -28,7 +31,7 @@
 
       <nav class="nav">
         <a href="#how">How it works</a>
-        <!-- Upload শুধু quick upload কার্ডে স্ক্রল করবে -->
+        <!-- Upload scrolls to the quick upload card -->
         <a href="#quick-upload">Upload</a>
         <a href="#faq">FAQ</a>
       </nav>
@@ -36,18 +39,24 @@
   </header>
 
   <main id="top">
+    <!-- Hero -->
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-left">
           <div class="pill">📚 Lecture Sheet Collection</div>
-          <h1>Help Us Build <span class="grad">Free Course Resources</span></h1>
+
+          <h1>
+            Help Us Build
+            <span class="grad">Free Course Resources</span>
+          </h1>
 
           <p
             class="lead"
             id="type-lead"
             data-text="শিক্ষার্থীদের জন্য সহজ ও সহায়ক কোর্স ভিডিও তৈরির লক্ষ্যে আমরা বিভিন্ন বিশ্ববিদ্যালয়ের কোর্সভিত্তিক লেকচার শিট সংগ্রহ করছি।"
           >
-            শিক্ষার্থীদের জন্য সহজ ও সহায়ক কোর্স ভিডিও তৈরির লক্ষ্যে আমরা বিভিন্ন বিশ্ববিদ্যালয়ের কোর্সভিত্তিক লেকচার শিট সংগ্রহ করছি।
+            শিক্ষার্থীদের জন্য সহজ ও সহায়ক কোর্স ভিডিও তৈরির লক্ষ্যে আমরা
+            বিভিন্ন বিশ্ববিদ্যালয়ের কোর্সভিত্তিক লেকচার শিট সংগ্রহ করছি।
           </p>
 
           <div class="trust">
@@ -65,14 +74,32 @@
             </div>
 
             <div class="steps">
-              <div class="step"><span>1</span>Select your University</div>
-              <div class="step"><span>2</span>Select Department</div>
-              <div class="step"><span>3</span>Enter course code / name</div>
-              <div class="step"><span>4</span>Drag & drop your file</div>
+              <div class="step">
+                <span>1</span>
+                Select your University
+              </div>
+              <div class="step">
+                <span>2</span>
+                Select Department
+              </div>
+              <div class="step">
+                <span>3</span>
+                Enter course code / name
+              </div>
+              <div class="step">
+                <span>4</span>
+                Drag &amp; drop your file
+              </div>
             </div>
 
-            <!-- এই বাটনটাই শুধু Google Form খুলবে (app.js দিয়ে href সেট হবে) -->
-            <a class="btn primary full" href="#" id="openFormBtnCard" target="_blank" rel="noopener">
+            <!-- This button opens the Google Form (href is set via app.js using config.js) -->
+            <a
+              class="btn primary full"
+              href="#"
+              id="openFormBtnCard"
+              target="_blank"
+              rel="noopener"
+            >
               Start Upload
             </a>
           </div>
@@ -80,36 +107,46 @@
       </div>
     </section>
 
+    <!-- How it works -->
     <section id="how" class="section">
       <div class="container">
         <h2>How it works</h2>
         <p class="muted">
-          Your upload helps us build a structured library and create high-quality course explanation videos.
+          Your upload helps us build a structured library and create
+          high-quality course explanation videos.
         </p>
 
         <div class="grid3">
           <div class="feature">
             <div class="icon">🎯</div>
             <div class="ftitle">Course-wise collection</div>
-            <div class="ftext">We organize files by university, department and course.</div>
+            <div class="ftext">
+              We organize files by university, department and course.
+            </div>
           </div>
+
           <div class="feature">
             <div class="icon">🧠</div>
             <div class="ftitle">Better learning</div>
-            <div class="ftext">We turn lecture sheets into easy video lessons.</div>
+            <div class="ftext">
+              We turn lecture sheets into easy video lessons.
+            </div>
           </div>
+
           <div class="feature">
             <div class="icon">🤝</div>
             <div class="ftitle">Built together by students</div>
-            <div class="ftext">Students contribute together to build helpful learning resources.</div>
+            <div class="ftext">
+              Students contribute together to build helpful learning resources.
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- FAQ + Join as Instructor CTA -->
     <section id="faq" class="section">
       <div class="container">
-        <!-- FAQ heading + right circular CTA -->
         <div class="faq-head">
           <h2>FAQ</h2>
 
@@ -121,31 +158,45 @@
             aria-label="Join as Instructor"
             title="Join as Instructor"
           >
-            Join as<br>Instructor
+            Join as<br />
+            Instructor
           </a>
         </div>
 
         <div class="faq">
           <details open>
             <summary>Do I need a Google account?</summary>
-            <p>Yes. You need a Google account to upload files via Google Form. It helps keep the upload secure and reduces spam.</p>
+            <p>
+              Yes. You need a Google account to upload files via Google Form.
+              It helps keep the upload secure and reduces spam.
+            </p>
           </details>
+
           <details>
             <summary>Can I upload multiple files?</summary>
-            <p>Yes. Upload your lecture sheets for the same course together (PDF/PPT/DOC etc.).</p>
+            <p>
+              Yes. Upload your lecture sheets for the same course together
+              (PDF/PPT/DOC etc.).
+            </p>
           </details>
+
           <details>
             <summary>What file types are accepted?</summary>
             <p>PDF, DOC/DOCX, PPT/PPTX formats.</p>
           </details>
+
           <details>
             <summary>How will my files be used?</summary>
-            <p>We use lecture sheets to prepare structured, helpful course videos for students.</p>
+            <p>
+              We use lecture sheets to prepare structured, helpful course
+              videos for students.
+            </p>
           </details>
         </div>
       </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer">
       <div class="container footer-inner">
         <div class="footer-left">
@@ -158,16 +209,33 @@
 
         <div class="footer-center">
           <div class="connect-title">Connect with us❤️</div>
+
           <div class="social-premium">
-            <a href="https://www.facebook.com/ThinkEasyAcademy" target="_blank" rel="noopener" class="fb" aria-label="Facebook">
+            <a
+              href="https://www.facebook.com/ThinkEasyAcademy"
+              target="_blank"
+              rel="noopener"
+              class="fb"
+              aria-label="Facebook"
+            >
               <svg viewBox="0 0 24 24">
-                <path d="M22 12C22 6.48 17.52 2 12 2S2 6.48 2 12c0 5 3.66 9.13 8.44 9.88v-6.99H8.1v-2.89h2.34V9.41c0-2.31 1.37-3.59 3.47-3.59.99 0 2.03.18 2.03.18v2.23h-1.14c-1.12 0-1.47.7-1.47 1.42v1.7h2.51l-.4 2.89h-2.11v6.99C18.34 21.13 22 17 22 12z"></path>
+                <path
+                  d="M22 12C22 6.48 17.52 2 12 2S2 6.48 2 12c0 5 3.66 9.13 8.44 9.88v-6.99H8.1v-2.89h2.34V9.41c0-2.31 1.37-3.59 3.47-3.59.99 0 2.03.18 2.03.18v2.23h-1.14c-1.12 0-1.47.7-1.47 1.42v1.7h2.51l-.4 2.89h-2.11v6.99C18.34 21.13 22 17 22 12z"
+                ></path>
               </svg>
             </a>
 
-            <a href="https://www.youtube.com/@thinkeasyacademy" target="_blank" rel="noopener" class="yt" aria-label="YouTube">
+            <a
+              href="https://www.youtube.com/@thinkeasyacademy"
+              target="_blank"
+              rel="noopener"
+              class="yt"
+              aria-label="YouTube"
+            >
               <svg viewBox="0 0 24 24">
-                <path d="M23.5 6.2s-.2-1.7-.9-2.5c-.8-.9-1.7-.9-2.1-1C17.6 2.3 12 2.3 12 2.3h-.1s-5.6 0-8.5.4c-.4.1-1.3.1-2.1 1-.7.8-.9 2.5-.9 2.5S0 8.1 0 10v1.9c0 1.9.1 3.8.1 3.8s.2 1.7.9 2.5c.8.9 1.9.9 2.4 1 1.7.2 7.6.4 7.6.4s5.6 0 8.5-.4c.4-.1 1.3-.1 2.1-1 .7-.8.9-2.5.9-2.5s.1-1.9.1-3.8V10c-.1-1.9-.2-3.8-.2-3.8zM9.7 14.5V8.9l5.8 2.8-5.8 2.8z"></path>
+                <path
+                  d="M23.5 6.2s-.2-1.7-.9-2.5c-.8-.9-1.7-.9-2.1-1C17.6 2.3 12 2.3 12 2.3h-.1s-5.6 0-8.5.4c-.4.1-1.3.1-2.1 1-.7.8-.9 2.5-.9 2.5S0 8.1 0 10v1.9c0 1.9.1 3.8.1 3.8s.2 1.7.9 2.5c.8.9 1.9.9 2.4 1 1.7.2 7.6.4 7.6.4s5.6 0 8.5-.4c.4-.1 1.3-.1 2.1-1 .7-.8.9-2.5.9-2.5s.1-1.9.1-3.8V10c-.1-1.9-.2-3.8-.2-3.8zM9.7 14.5V8.9l5.8 2.8-5.8 2.8z"
+                ></path>
               </svg>
             </a>
           </div>
